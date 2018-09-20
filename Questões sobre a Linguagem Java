@@ -1,0 +1,24 @@
+1-	Pacote java.lang. Classe System e String por exemplo.
+
+2-	A instrução import da linguagem Java tem como objetivo disponibilizar em uma classe, de um determinado pacote, o acesso a demais classes que estejam em pacotes diferentes.
+
+3-	a-private 
+b-public 
+c-protected 
+d-static
+
+4-	 tipos primitivos e por referência.
+
+5-	A palavra chave new.
+
+6-	IDE
+
+7-	Máquina Virtual
+
+8-	É um pacote que não precisa ser importado para usar suas classes.
+
+9-	A classe System não pode ser estendida pois seus métodos são estáticos, sem a necessidade de criação de uma instância em memória. Além disso, esta classe tem 3 variáveis que são:
+•	err: Sendo este do tipo PrintStream, armazena a saída padrão para mensagens de erro do sistema.
+•	In: Sendo este do tipo InputStream, armazena a entrada padrão do sistema, que pode ser, por exemplo, um teclado ou um arquivo de texto.
+•	out: Sendo do mesmo tipo da variável “err” (PrintStream), esta variável armazena a saída padrão de mensagens da aplicação.
+10-	String
