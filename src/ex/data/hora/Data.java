@@ -5,12 +5,17 @@ public class Data {
 		private byte mes;
 		private short ano;
 	
-	public Data(byte dia, byte mes, short ano) {
+	public Data(byte dia, byte mes, short ano) { //Construtor
 		this.dia = dia;
 		this.mes = mes;
 		this.ano = ano;
 	}
 	
+	public void inicializaData(byte dia, byte mes, short ano) { //Metodo Construtor
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
+	}
 	public Data() {
 		dia = 0;
 		mes = 0;

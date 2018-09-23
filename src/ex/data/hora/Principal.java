@@ -25,6 +25,10 @@ public class Principal {
 		System.out.println(dataHora2.mostraDataHora());
 		
 		System.out.println(Hora.comparaHoras(hora,hora2));
+		
+		HoraAproximada horaaproximada = new HoraAproximada();
+		horaaproximada.inicializaHora(17, 10, 30);
+		horaaproximada.mostraHora();
 	}
 	
 }
